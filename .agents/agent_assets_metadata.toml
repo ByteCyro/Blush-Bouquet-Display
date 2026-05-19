@@ -1,0 +1,104 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "Tf3m48bEx8lbMrFlGTNwF"
+uri = "file://artifacts/florist-blush/public/images/hero-1.png"
+type = "image"
+title = "Hero bouquet table arrangement"
+
+[[generated]]
+id = "MkFpljik0lbhB38DkZenD"
+uri = "file://artifacts/florist-blush/public/images/hero-2.png"
+type = "image"
+title = "Florist holding flowers"
+
+[[generated]]
+id = "OGgQ6m5G_K7BKiNELjuDE"
+uri = "file://artifacts/florist-blush/public/images/about-florist.png"
+type = "image"
+title = "Florist working in studio"
+
+[[generated]]
+id = "PjiR_pJ5hFgz8n0bB1PYy"
+uri = "file://artifacts/florist-blush/public/images/product-blush-romance.png"
+type = "image"
+title = "Blush Romance bouquet"
+
+[[generated]]
+id = "wE75u6SipCFZBUsBrkQ_R"
+uri = "file://artifacts/florist-blush/public/images/product-golden-hour.png"
+type = "image"
+title = "Golden Hour bouquet"
+
+[[generated]]
+id = "qsIxNDNjwLHVNj6GieohH"
+uri = "file://artifacts/florist-blush/public/images/product-wild-at-heart.png"
+type = "image"
+title = "Wild at Heart bouquet"
+
+[[generated]]
+id = "acYwIIJQXeqOxNP95qIB1"
+uri = "file://artifacts/florist-blush/public/images/product-soft-sunday.png"
+type = "image"
+title = "Soft Sunday bouquet"
+
+[[generated]]
+id = "3c6a7EzZJMTuYFo0vHrCx"
+uri = "file://artifacts/florist-blush/public/images/product-garden-party.png"
+type = "image"
+title = "Garden Party bouquet"
+
+[[generated]]
+id = "y4zINHx_ZD7zFc__Es3FG"
+uri = "file://artifacts/florist-blush/public/images/product-midnight-garden.png"
+type = "image"
+title = "Midnight Garden bouquet"
+
+[[generated]]
+id = "92E0-X8I6jDO9----5DeS"
+uri = "file://attached_assets/generated_images/a_stunning_handcrafted_wedding_e56c.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "xIOoAXVE3_qdzd2Qt2TLK"
+uri = "file://attached_assets/generated_images/a_lush_handcrafted_bouquet_8259.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "o45OHQnlfraWno2jMFmb6"
+uri = "file://attached_assets/generated_images/a_wild_free_spirited_e033.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "dxrb8sANmyay-4luHPBfM"
+uri = "file://attached_assets/generated_images/a_dramatic_deep_handcrafted_4696.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "iSTuY71ZituKsC-LU_uXG"
+uri = "file://attached_assets/generated_images/a_vibrant_handcrafted_garden_24d1.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "Lz4Q8omOp_AhiRL4Bfgm9"
+uri = "file://attached_assets/generated_images/a_delicate_minimal_handcrafted_c6fe.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "LCxVzAuU-KRgEWO_vCr8x"
+uri = "file://attached_assets/generated_images/a_beautiful_styled_flat_f7fe.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "lmxZ28rrLRsCfprRZTxt1"
+uri = "file://attached_assets/generated_images/a_beautiful_lifestyle_scene_c071.png"
+type = "image"
+title = "generated_image"
