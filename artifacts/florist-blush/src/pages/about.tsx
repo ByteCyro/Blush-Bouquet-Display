@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Instagram, Heart, Leaf, Sparkles } from "lucide-react";
+import { Instagram, Heart, Sparkles, Scissors } from "lucide-react";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 28 },
@@ -11,18 +11,18 @@ const fadeInUp = {
 const values = [
   {
     icon: Heart,
-    title: "Made with Intention",
-    desc: "Every stem is chosen with care. Nothing is rushed, nothing is accidental. Each bouquet carries the same love as a handwritten letter.",
+    title: "Made with Love",
+    desc: "Every stitch is placed with care. Whether it's a bouquet or a keychain, I put the same love into every piece I make.",
   },
   {
-    icon: Leaf,
-    title: "Seasonal & Fresh",
-    desc: "I work with what nature offers each season — the blooms that are at their peak, their most vibrant, their most alive.",
+    icon: Scissors,
+    title: "Fully Handmade",
+    desc: "No machines, no shortcuts. Each petal is crocheted or stitched by hand — which means no two pieces are ever exactly the same.",
   },
   {
     icon: Sparkles,
-    title: "Beautifully Personal",
-    desc: "No two arrangements are identical. Your bouquet is made for your moment, your person, your feeling.",
+    title: "Gifts That Last",
+    desc: "Real flowers wilt. Mine don't. Every piece I create is made to be kept, treasured, and loved for years.",
   },
 ];
 
@@ -40,21 +40,21 @@ export default function About() {
               className="space-y-6"
             >
               <span className="text-primary font-medium tracking-widest uppercase text-xs">
-                The Florist
+                The Maker
               </span>
               <h1 className="text-4xl md:text-5xl font-serif leading-tight">
-                Flowers are my love language.
+                I crochet blooms that never fade.
               </h1>
               <p className="text-muted-foreground font-light leading-relaxed text-lg">
-                Hi, I'm the florist behind FloristBlush. What started as a weekend obsession with farmers' market blooms became something I could not imagine living without. I wanted to share that feeling — that quiet joy of holding something so beautiful it makes you pause.
+                Hi, I'm the maker behind FloristBlush. I've always loved flowers — but the first time I crocheted a tiny rose, I realized I could make something even better: flowers that stay beautiful forever, that you can hold and treasure long after the occasion has passed.
               </p>
               <p className="text-muted-foreground font-light leading-relaxed">
-                Every arrangement I create is made by hand, with flowers I've personally selected, chosen for their colour, their scent, and the feeling they carry. I don't follow a formula — I follow my instinct, the season, and the story you want to tell.
+                I make crochet bouquets, plush flower arrangements, and flower keychains entirely by hand. Everything is stitched with care, made to order, and designed to feel like a genuine gift — not something mass-produced. You can follow my work on Instagram, where I share my process, new designs, and behind-the-scenes moments.
               </p>
               <Button asChild variant="outline" className="rounded-full px-8 border-primary/20 hover:bg-primary hover:text-primary-foreground transition-colors">
                 <a href="https://instagram.com/floristblush_" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <Instagram size={16} />
-                  Follow along on Instagram
+                  Follow @floristblush_ on Instagram
                 </a>
               </Button>
             </motion.div>
@@ -67,7 +67,7 @@ export default function About() {
             >
               <img
                 src="/images/about-florist.png"
-                alt="The florist behind FloristBlush"
+                alt="Handmade crochet bouquet showcase"
                 className="w-full h-full object-cover"
               />
             </motion.div>
@@ -85,9 +85,9 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16 space-y-4"
           >
-            <h2 className="text-3xl md:text-4xl font-serif">What I believe in</h2>
+            <h2 className="text-3xl md:text-4xl font-serif">What I stand for</h2>
             <p className="text-muted-foreground font-light">
-              The principles that guide every bouquet I make.
+              The values behind every piece I create.
             </p>
           </motion.div>
 
@@ -122,20 +122,20 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="space-y-6 text-center"
           >
-            <h2 className="text-3xl md:text-4xl font-serif">How it all began</h2>
+            <h2 className="text-3xl md:text-4xl font-serif">How it started</h2>
             <div className="space-y-4 text-muted-foreground font-light leading-relaxed text-left max-w-2xl mx-auto">
               <p>
-                It started with a single bunch of peonies from a Saturday market. I arranged them in an old jam jar on my kitchen table and couldn't stop looking at them. There was something about the way they opened slowly, petal by petal, that felt like a small miracle happening right in front of me.
+                It started with a crochet hook and a ball of pink yarn. I was learning to crochet during a quiet afternoon, and somehow ended up making a tiny rose. I held it up, looked at it, and thought — this is actually kind of magical.
               </p>
               <p>
-                I started gifting arrangements to friends — birthdays, anniversaries, just-because moments. The smiles, the messages, the photos they'd send back — it all told me I was onto something real. FloristBlush grew out of those moments.
+                I started gifting crocheted flowers to friends and family. Their reactions told me everything: people held these little handmade things like they were precious. Because they are. They're made of time, attention, and care — things you can't buy in a store.
               </p>
               <p>
-                Today, I create every bouquet by hand, working from home with flowers sourced fresh each week. I share what I make on Instagram, and I love connecting with the people who find their way here. If you're one of them — thank you for being here.
+                FloristBlush grew from those first gifts. Now I make crochet bouquets, plush arrangements, and flower keychains from home, and I share them on Instagram. If you're here — thank you for finding me, and for appreciating the art of making something slowly, by hand, with love.
               </p>
             </div>
             <Button asChild size="lg" className="rounded-full px-8 bg-primary hover:bg-primary/90 text-primary-foreground mt-4">
-              <Link href="/shop">Explore the Collection</Link>
+              <Link href="/shop">Shop the Collection</Link>
             </Button>
           </motion.div>
         </div>

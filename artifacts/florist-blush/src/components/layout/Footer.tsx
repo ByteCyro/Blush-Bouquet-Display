@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Instagram, Mail, MapPin } from "lucide-react";
+import { Instagram, Mail } from "lucide-react";
 
 export function Footer() {
   return (
@@ -10,21 +10,24 @@ export function Footer() {
             FloristBlush
           </Link>
           <p className="text-muted-foreground max-w-xs mx-auto md:mx-0">
-            Handcrafted with love, bloomed just for you. Delicate, personal floral arrangements for life's beautiful moments.
+            Handmade crochet bouquets, plush arrangements, and flower keychains — stitched with love, made to last forever.
           </p>
         </div>
 
         <div className="space-y-4">
-          <h3 className="font-serif text-lg">Links</h3>
+          <h3 className="font-serif text-lg">Shop</h3>
           <ul className="space-y-2 text-muted-foreground flex flex-col items-center md:items-start">
             <li>
-              <Link href="/shop" className="hover:text-primary transition-colors">Shop Collections</Link>
+              <Link href="/shop" className="hover:text-primary transition-colors">Crochet Bouquets</Link>
             </li>
             <li>
-              <Link href="/about" className="hover:text-primary transition-colors">Our Story</Link>
+              <Link href="/shop" className="hover:text-primary transition-colors">Plush Bouquets</Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-primary transition-colors">Contact Us</Link>
+              <Link href="/shop" className="hover:text-primary transition-colors">Keychains</Link>
+            </li>
+            <li>
+              <Link href="/contact" className="hover:text-primary transition-colors">Custom Orders</Link>
             </li>
           </ul>
         </div>
@@ -41,10 +44,6 @@ export function Footer() {
             <li className="flex items-center gap-2">
               <Mail size={18} />
               <span>hello@floristblush.com</span>
-            </li>
-            <li className="flex items-center gap-2">
-              <MapPin size={18} />
-              <span>San Francisco, CA</span>
             </li>
           </ul>
         </div>

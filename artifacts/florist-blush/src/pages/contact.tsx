@@ -21,7 +21,7 @@ export default function Contact() {
   const [form, setForm] = useState({
     name: "",
     email: "",
-    occasion: "",
+    product: "",
     message: "",
   });
 
@@ -41,13 +41,13 @@ export default function Contact() {
           className="max-w-xl mx-auto space-y-4"
         >
           <motion.span variants={fadeInUp} className="text-primary font-medium tracking-widest uppercase text-xs">
-            Get in Touch
+            Place an Order
           </motion.span>
           <motion.h1 variants={fadeInUp} className="text-4xl md:text-5xl font-serif">
-            Let's create something beautiful.
+            Let's make something for you.
           </motion.h1>
           <motion.p variants={fadeInUp} className="text-muted-foreground font-light leading-relaxed">
-            Orders are placed through Instagram DM or this inquiry form. I'll get back to you within 24 hours.
+            All orders are placed through Instagram DM or this form. I'll reply within 24 hours to discuss your piece and confirm details.
           </motion.p>
         </motion.div>
       </section>
@@ -66,7 +66,7 @@ export default function Contact() {
             <motion.div variants={fadeInUp} className="space-y-4">
               <h2 className="text-2xl font-serif">How to order</h2>
               <p className="text-muted-foreground font-light leading-relaxed">
-                The easiest way to place an order is to slide into my Instagram DMs at{" "}
+                The quickest way is to DM me on Instagram at{" "}
                 <a
                   href="https://instagram.com/floristblush_"
                   target="_blank"
@@ -75,10 +75,10 @@ export default function Contact() {
                 >
                   @floristblush_
                 </a>
-                . You can browse my latest work there too.
+                {" "}— you can also see my latest work there.
               </p>
               <p className="text-muted-foreground font-light leading-relaxed">
-                Alternatively, fill in the form and I'll reach out to discuss your arrangement, colours, and delivery date.
+                Or fill in the form and I'll get back to you to discuss colors, size, and your preferred design.
               </p>
             </motion.div>
 
@@ -87,25 +87,25 @@ export default function Contact() {
               <ul className="space-y-3 text-muted-foreground font-light text-sm">
                 <li className="flex items-start gap-3">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
-                  Orders are typically fulfilled within 3–5 days
+                  All items are made to order — typically ready in 5–7 days
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
-                  Custom bouquets can be arranged for any colour palette or occasion
+                  Custom colors, sizes, and flower types available on request
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
-                  Local delivery and pickup available — contact for details
+                  Keychains can be ordered individually or as a set
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
-                  Weddings and events welcome — let's chat early for the best availability
+                  Bulk orders and gifting sets welcome — contact me early
                 </li>
               </ul>
             </motion.div>
 
             <motion.div variants={fadeInUp} className="space-y-4">
-              <h2 className="text-2xl font-serif">Connect with me</h2>
+              <h2 className="text-2xl font-serif">Find me here</h2>
               <div className="space-y-3">
                 <a
                   href="https://instagram.com/floristblush_"
@@ -147,9 +147,9 @@ export default function Contact() {
                 <div className="w-16 h-16 rounded-full bg-accent flex items-center justify-center">
                   <CheckCircle2 size={32} className="text-primary" />
                 </div>
-                <h3 className="text-2xl font-serif">Thank you!</h3>
+                <h3 className="text-2xl font-serif">Order received!</h3>
                 <p className="text-muted-foreground font-light leading-relaxed">
-                  Your message has been received. I'll be in touch within 24 hours. In the meantime, feel free to browse the shop or say hello on Instagram.
+                  Thank you for reaching out. I'll be in touch within 24 hours to confirm your order details. Can't wait to make something special for you.
                 </p>
                 <Button
                   asChild
@@ -157,13 +157,13 @@ export default function Contact() {
                   className="rounded-full px-8 border-primary/20 hover:bg-primary hover:text-primary-foreground transition-colors"
                 >
                   <a href="https://instagram.com/floristblush_" target="_blank" rel="noopener noreferrer">
-                    Visit Instagram
+                    Follow on Instagram
                   </a>
                 </Button>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
-                <h2 className="text-2xl font-serif mb-2">Send an inquiry</h2>
+                <h2 className="text-2xl font-serif mb-2">Send an order inquiry</h2>
 
                 <div className="space-y-2">
                   <Label htmlFor="name" className="text-sm font-medium">Your name</Label>
@@ -191,21 +191,21 @@ export default function Contact() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="occasion" className="text-sm font-medium">Occasion (optional)</Label>
+                  <Label htmlFor="product" className="text-sm font-medium">What are you interested in?</Label>
                   <Input
-                    id="occasion"
-                    placeholder="Birthday, wedding, anniversary..."
-                    value={form.occasion}
-                    onChange={(e) => setForm({ ...form, occasion: e.target.value })}
+                    id="product"
+                    placeholder="Crochet bouquet, plush bouquet, keychains..."
+                    value={form.product}
+                    onChange={(e) => setForm({ ...form, product: e.target.value })}
                     className="rounded-xl border-border/60 focus:border-primary/40"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="message" className="text-sm font-medium">Your message</Label>
+                  <Label htmlFor="message" className="text-sm font-medium">Tell me more</Label>
                   <Textarea
                     id="message"
-                    placeholder="Tell me about the bouquet you have in mind — colours, size, style, delivery date..."
+                    placeholder="Colors, size, occasion, any special requests — the more detail, the better!"
                     value={form.message}
                     onChange={(e) => setForm({ ...form, message: e.target.value })}
                     required
