@@ -32,6 +32,8 @@ export default defineConfig({
         shop: path.resolve(import.meta.dirname, "shop.html"),
         about: path.resolve(import.meta.dirname, "about.html"),
         contact: path.resolve(import.meta.dirname, "contact.html"),
+        product: path.resolve(import.meta.dirname, "product.html"),
+        cart: path.resolve(import.meta.dirname, "cart.html"),
       },
     },
   },
