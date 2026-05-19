@@ -1,24 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>FloristBlush — Handcrafted Bouquets</title>
-    <meta name="description" content="FloristBlush — Handcrafted Bouquets — built on Replit. Update this description to reflect the app." />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="FloristBlush — Handcrafted Bouquets" />
-    <meta property="og:description" content="FloristBlush — Handcrafted Bouquets — built on Replit. Update this description to reflect the app." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="FloristBlush — Handcrafted Bouquets" />
-    <meta name="twitter:description" content="FloristBlush — Handcrafted Bouquets — built on Replit. Update this description to reflect the app." />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FloristBlush — Handcrafted Crochet Bouquets</title>
+  <meta name="description" content="Crochet bouquets, plush arrangements, and keychains — each piece stitched by hand with love." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="/" class="navbar-logo">FloristBlush</a>
+      <nav>
+        <ul class="navbar-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/shop.html">Shop</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="/shop.html" class="btn btn-outline navbar-cta">Order Now</a>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <a href="/">Home</a>
+      <a href="/shop.html">Shop</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="/images/hero-1.png" alt="Handmade crochet bouquet" />
+      </div>
+      <div class="hero-content">
+        <span class="label">Handcrafted Crochet Studio</span>
+        <h1 class="hero-title serif">
+          Bouquets that last<br><em>forever.</em>
+        </h1>
+        <p class="hero-sub">
+          Crochet bouquets, plush arrangements, and keychains — each piece stitched by hand with love. Gifts that never wilt, memories that never fade.
+        </p>
+        <div class="hero-actions">
+          <a href="/shop.html" class="btn btn-primary">Shop Now</a>
+          <a href="/about.html" class="btn btn-outline">Our Story</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="label">Collections</span>
+          <h2 class="serif">Made to be kept forever</h2>
+          <p>Unlike real flowers, these never wilt. Browse our handmade collections — crochet bouquets, plush arrangements, and adorable keychains.</p>
+        </div>
+
+        <div class="grid-3">
+          <a href="/shop.html?filter=crochet" class="category-card fade-up">
+            <div class="category-img">
+              <img src="/images/product-blush-romance.png" alt="Crochet Bouquets" />
+            </div>
+            <h3 class="category-title serif">Crochet Bouquets</h3>
+            <p class="category-sub">Yarn flowers stitched petal by petal</p>
+          </a>
+          <a href="/shop.html?filter=plush" class="category-card fade-up fade-up-delay-1">
+            <div class="category-img">
+              <img src="/images/product-wild-at-heart.png" alt="Plush Bouquets" />
+            </div>
+            <h3 class="category-title serif">Plush Bouquets</h3>
+            <p class="category-sub">Soft, huggable stuffed flower arrangements</p>
+          </a>
+          <a href="/shop.html?filter=keychains" class="category-card fade-up fade-up-delay-2">
+            <div class="category-img">
+              <img src="/images/product-garden-party.png" alt="Flower Keychains" />
+            </div>
+            <h3 class="category-title serif">Flower Keychains</h3>
+            <p class="category-sub">Tiny blooms to carry everywhere</p>
+          </a>
+        </div>
+
+        <div style="text-align:center; margin-top:3rem;">
+          <a href="/shop.html" class="btn btn-outline">View all products &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story teaser -->
+    <section class="section accent-strip">
+      <div class="container">
+        <div class="two-col">
+          <div class="two-col-img fade-up">
+            <img src="/images/hero-2.png" alt="Handmade crochet craft supplies and bouquets" />
+          </div>
+          <div class="two-col-text fade-up">
+            <span class="label">The story</span>
+            <h2 class="serif">More than a gift.<br><em>A keepsake.</em></h2>
+            <p>Every stitch is placed with intention. I make crochet bouquets, plush flower arrangements, and keychains that people hold onto long after the occasion has passed. They don't wilt, they don't fade — they just get more loved.</p>
+            <a href="/about.html" class="btn btn-outline" style="align-self:flex-start;">Read my story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="serif">Why crochet bouquets?</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why-item fade-up">
+            <div class="why-line"></div>
+            <h3 class="why-title serif">They last forever</h3>
+            <p class="why-desc">No wilting, no watering, no waiting. Your bouquet looks just as beautiful years from now.</p>
+          </div>
+          <div class="why-item fade-up fade-up-delay-1">
+            <div class="why-line"></div>
+            <h3 class="why-title serif">Fully handmade</h3>
+            <p class="why-desc">Every petal is crocheted or stitched by hand. No two pieces are ever exactly alike.</p>
+          </div>
+          <div class="why-item fade-up fade-up-delay-2">
+            <div class="why-line"></div>
+            <h3 class="why-title serif">Perfect gifts</h3>
+            <p class="why-desc">Birthdays, graduations, anniversaries, just-because — they suit every occasion and everyone.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="/" class="footer-brand serif">FloristBlush</a>
+          <p class="footer-tagline">Handmade crochet bouquets, plush arrangements, and flower keychains — stitched with love, made to last forever.</p>
+        </div>
+        <div class="footer-col">
+          <h3 class="serif">Shop</h3>
+          <ul class="footer-links">
+            <li><a href="/shop.html?filter=crochet">Crochet Bouquets</a></li>
+            <li><a href="/shop.html?filter=plush">Plush Bouquets</a></li>
+            <li><a href="/shop.html?filter=keychains">Keychains</a></li>
+            <li><a href="/contact.html">Custom Orders</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="serif">Connect</h3>
+          <div class="footer-connect">
+            <a href="https://instagram.com/floristblush_" target="_blank" rel="noopener noreferrer" class="footer-connect-item">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              @floristblush_
+            </a>
+            <span class="footer-connect-item">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              hello@floristblush.com
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span class="copyright-year"></span> FloristBlush. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
 </html>
